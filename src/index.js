@@ -14,6 +14,8 @@ const findMissingNumber = (nums = []) => {
   return 0;
 };
 
-console.log(findMissingNumber([3, 2, 3]));
+if (process.env.NODE_ENV !== 'test') {
+  console.log(findMissingNumber([3, 2, 3]));
+}
 
-module.exports = findMissingNumber;
+export default findMissingNumber;

@@ -7,7 +7,7 @@ yarn install
 yarn start
 ```
 
-For testing
+For running the testcases
 
 ```
 yarn test
